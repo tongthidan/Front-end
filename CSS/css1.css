@@ -1,0 +1,232 @@
+.container{
+    width: 100%;
+    background-color: #FFFF;
+}
+.content{
+    width: 100%;
+}
+.container-header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.banner{
+    display: flex;
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.logo{
+   margin-right: auto;
+}
+.logo a{
+    height: 100%;
+    display: flex;
+   flex-direction: column;
+   justify-items: center;
+   justify-content: center;
+}
+.menu{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left:auto;
+}
+
+.menu-component{
+    float: right;
+    width: 10%;
+    padding: 5px;
+   
+}
+
+.align_link{
+    padding: 5px;
+    margin: 5px;
+}
+a{
+    color: azure;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: darkorange;
+    
+}
+.body_content{
+    width: 100%;
+    background-color: green;
+    height: 650px;
+}
+.anh{
+    width: 100%;
+    height: 100%;
+}
+
+.service{
+    width: 100%;
+    display: flex;
+   
+}
+
+.service-title{
+    padding: 15px 20px;
+    background-color: #EBEBEB;
+    text-align: center;
+    box-shadow: 5px 5px 5px silver inset;
+}
+.service-content{
+    background-color:#FFFF;
+    box-shadow:  5px 5px 5px silver inset;
+    padding: 15px;
+}
+ /* section 3 */
+
+.feature-logo{
+    height: 50px;
+    display: flex;
+    padding:20px;
+    background-color: #fafafa;
+    
+}
+.logo-img{
+   height: 100%;
+   width:100%;
+   border: 1px solid wheat;
+   border-top: none;
+   padding-bottom: 20px;;
+   display: flex;
+   padding: 20px;
+   justify-content: center;
+}
+.logo-img:first-child{
+    border-top: none;
+    border-left: none;
+}
+.logo-img:nth-child(3){
+    border-top: none;
+    border-right: none;
+}
+.logo-img:nth-child(4){
+    border-top: none;
+    border-right: none;
+}
+.logo-img:nth-child(6){
+    border-top: none;
+    border-right: none;
+}
+.recoz-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.recoz-content{
+    justify-items: center;
+    text-align: center;
+}
+.recoz-title{
+    padding: 20px;
+}
+ .recoz-image{
+     display: flex;
+ }
+ .recoz-image-com{
+     padding: 30px;
+     width: 100%;
+ }
+ .award-container{
+     width: 100%;
+     padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    background-color:#e5e0e0;
+ }
+ .award-content{
+    width: 50%;
+     padding-left: 20px;
+     padding-right: 20px;
+     display: flex;
+    
+ }
+ .award-content-logo{
+     width: 10%;
+     height: 100px;
+     padding-top: 32px;
+
+ }
+ .award-content-com{
+    margin-left: auto;
+    padding-left: 35px;
+    border-bottom: 1px solid #fafafa
+ }
+ .award-content-com-title{
+     padding: 10px;
+     font: caption;
+ }
+ .stategic-container{
+     width: 100%;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     font: caption;
+     /* overflow: hidden; */
+
+ }
+ .stategic-content{
+     width: 100%;
+     text-align: center;
+     justify-items: center;
+ }
+ .stategic-container-title{
+     padding: 20px;
+     text-align: center;
+     padding-top:0px
+ }
+ .stategic-description{
+     padding: 20px;
+     text-align: center;
+ }
+ .stategic-image{
+     width: 100%;
+     display: flex;
+     padding:10px;
+ }
+ .logo-s{
+     width:20%;
+     padding-left: 40px;
+     padding-right: 40px;
+     margin: auto;
+ }
+ .customer-stories-container{
+     padding: 0px;
+     display: inline-flex;
+     justify-items: center;
+ }
+ .customer-content{
+     width: 80%;
+     /* background-size: contain; */
+     overflow: hidden;
+     justify-items: center;
+     text-align: center;
+     margin-left:auto;
+     padding:10px;
+     font: caption;
+     border: 1px solid wheat;
+    
+ }
+ .customer-content-image{
+    width:100%;
+    background-position: center;
+    /* height: 60px; */
+    background-size: cover;
+    padding-bottom: 20px;
+    /* float: left; */
+ }
+ .customer-content-title{
+     text-align: center;
+     margin-top: 40px;
+     padding-top: 20px;
+ }
+ .customer-content-description{
+     padding: 30px;
+     text-align: center;
+ }
