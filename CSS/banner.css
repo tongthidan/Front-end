@@ -1,0 +1,44 @@
+.banner-container{
+    background-color: black;
+    width: 100%;
+    padding :30px;
+    padding-left: 100px;
+}
+.banner-content {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.banner-logo{
+    width: 15%;
+    margin-left: auto;
+    padding-right: 30px;
+    margin-right: 100px;
+    padding-top: 10px;
+}
+.banner-menu{
+    display: flex;
+    width: 85%;
+    margin-right: auto;
+    font:caption;
+    padding-left: 30px;
+    font-size: 15px;
+    
+}
+.align_link{
+    padding: 5px;
+    margin: 5px;
+}
+.banner-menu a{
+    color: azure;
+    text-decoration: none;
+}
+.banner-menu a:hover{
+    background-color:hsl(73, 38%, 55%);
+    
+}
+.banner-menu button{
+    background-color:hsl(73, 38%, 55%);
+    border-radius: 8px;
+    padding: 15px;
+}
